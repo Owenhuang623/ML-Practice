@@ -1,0 +1,16 @@
+data: 
+
+input: x by x image, rbg (0-255)
+output: what is the image
+
+
+forward prop: 
+- input
+- x kernels become x channels
+- pass values through an activation 
+- apply max / mean pooling 
+- flatten all channels
+- pass through dense layers
+- pass through output layers
+- get softmax of classes 
+
